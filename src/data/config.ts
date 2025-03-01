@@ -1,5 +1,5 @@
 const config = {
-  title: "Fox | Computer Engineer & Cybersecurity Enthusiast", // Updated title
+  title: "Fox | Computer Engineering Scientist & Cybersecurity Enthusiast", // Updated title
   description: {
     long: "Hey Explore the portfolio of Fox, a complete computer Engineer with a passion for cybersecurity and Dev. I specialize in building secure and engaging digital experiences. Discover my latest projects and let's collaborate on something amazing!", // Updated description
     short:
