@@ -289,10 +289,10 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hello there! I'm Fox, a Fullstack Developer with a knack for cybersecurity.
+              Hello there! I&apos;m Fox, a Fullstack Developer with a knack for cybersecurity.
               My expertise in Computer Engineering allows me to build impactful digital experiences while keeping a sharp eye on potential threats.
-              I'm driven by the challenge of transforming concepts into functional code and ensuring data integrity.
-              People ask why foxes excel at hacking – it's because we're masters at finding the hidden 'fox-holes' within any network!
+              I&apos;m driven by the challenge of transforming concepts into functional code and ensuring data integrity.
+              People ask why foxes excel at hacking – it&apos;s because we&apos;re masters at finding the hidden &apos;fox-holes&apos; within any network!
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me watch Animes, exploring new technologies, or sipping coffee

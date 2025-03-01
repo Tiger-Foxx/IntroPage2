@@ -261,17 +261,17 @@ const projects: Project[] = [
             return (
                 <div>
                     <TypographyP className="font-mono text-2xl text-center">
-                        Votre plateforme tout-en-un pour l'éducation numérique
+                        Votre plateforme tout-en-un pour l&apos;éducation numérique
                     </TypographyP>
                     <TypographyP className="font-mono ">
-                        FormatPlus révolutionne l'accès aux formations en ligne avec son système
+                        FormatPlus révolutionne l&apos;accès aux formations en ligne avec son système
                         de parrainage innovant et son intégration transparente avec Google Drive.
                     </TypographyP>
                     <ProjectsLinks live={this.live} />
 
                     <TypographyH3 className="my-4 mt-8">Inscription Sécurisée</TypographyH3>
                     <p className="font-mono mb-2">
-                        Processus d'inscription obligeant un code de parrainage, avec vérification
+                        Processus d&apos;inscription obligeant un code de parrainage, avec vérification
                         en temps réel et intégration de paiement sécurisé.
                     </p>
                     <SlideShow
@@ -366,10 +366,10 @@ sudo python3 Wi-Fox.py`}
                         `${BASE_PATH}/wi-fox/6.png`
                     ]} />
                     <TypographyP className="font-mono mt-4">
-                        Disclaimer: Wi‑Fox the Kanif n'est pas responsable des mauvaises utilisations ou des utilisations illégales. Utilisez-le uniquement à des fins de pentest ou éducatives.
+                        Disclaimer: Wi‑Fox the Kanif n&apos;est pas responsable des mauvaises utilisations ou des utilisations illégales. Utilisez-le uniquement à des fins de pentest ou éducatives.
                     </TypographyP>
                     <TypographyP className="font-mono mt-4">
-                        Créateur: THe Fox 🦊 - "Quand le renard passe, le Wi‑Fi trépasse !"
+                        Créateur: THe Fox 🦊 - &quot;Quand le renard passe, le Wi‑Fi trépasse !&quot;
                     </TypographyP>
                 </div>
             );
