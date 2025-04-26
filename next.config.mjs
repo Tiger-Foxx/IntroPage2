@@ -17,6 +17,17 @@ const nextConfig = {
           destination: "https://github.com/Tiger-Foxx",
           permanent: true, // Redirection temporaire (true si tu veux une redirection permanente)
         },
+        {
+          source: "/nancy-cv", // Capture uniquement les IDs numériques
+          destination: "https://nancy-cv.vercel.app",
+          permanent: true, // Redirection temporaire (true si tu veux une redirection permanente)
+        },
+        {
+          source: "/mood-music", // Capture uniquement les IDs numériques
+          destination: "https://mood-music.the-fox.tech",
+          permanent: true, // Redirection temporaire (true si tu veux une redirection permanente)
+        },
+        
       ];
     },
   };
