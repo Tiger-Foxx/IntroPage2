@@ -13,6 +13,8 @@ import Preloader from "@/components/preloader";
 import EasterEggs from "@/components/easter-eggs";
 import { config } from "@/data/config";
 import SocketContextProvider from "@/contexts/socketio";
+import { Analytics } from '@vercel/analytics/next';
+
 import RemoteCursors from "@/components/realtime/remote-cursors";
 
 export const metadata: Metadata = {
@@ -90,6 +92,8 @@ export default function RootLayout({
             <ElasticCursor />
           </Preloader>
         </ThemeProvider>
+        <Analytics />
+
       </body>
     </html>
   );
