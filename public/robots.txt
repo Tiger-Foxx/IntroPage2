@@ -1,0 +1,49 @@
+# robots.txt pour YT-Learn - https://the-fox.tech
+# Créé le: 2025-05-10
+# Développeur: Pascal Arthur Donfack (the-fox.tech)
+
+# Directives globales pour tous les robots
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /blog
+Allow: /contact
+Allow: /sitemap.xml
+
+
+
+# Optimisation pour les ressources
+Disallow: /*.js$          # Fichiers JavaScript
+Disallow: /*.css$         # Feuilles de style
+Disallow: /*.json$        # Fichiers de données JSON
+
+# Directives spécifiques pour les robots particuliers
+
+# GoogleBot - Robot principal de Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# GoogleBot Images - Pour l'indexation des images
+User-agent: Googlebot-Image
+Allow: /public/images/
+Allow: /screenshots/
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Bingbot - Robot de Microsoft Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Robots d'analyse de contenu
+User-agent: AdsBot-Google
+Allow: /
+
+# Liens vers les ressources importantes
+Sitemap: https://the-fox.tech/sitemap.xml
+Sitemap: https://the-fox.tech/images-sitemap.xml
+
