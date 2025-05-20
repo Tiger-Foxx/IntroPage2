@@ -430,7 +430,7 @@ sudo python3 Wi-Fox.py`}
                 PROJECT_SKILLS.python,
             ],
         },
-        live: "https://theoldfox.pythonanywhere.com/projet/3",
+        live: "https://site.the-fox.tech/projet/3",
         github: "https://github.com/Tiger-Foxx/SDN-and-Machine-learning",
         get content() {
             return (

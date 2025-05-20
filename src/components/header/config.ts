@@ -18,7 +18,7 @@ const links: Link[] = [
   },
   {
     title: 'Projects',
-    href: 'https://theoldfox.pythonanywhere.com/portfolio/',
+    href: 'https://site.the-fox.tech/projects',
     thumbnail: '/assets/nav-link-previews/projects.png'
   },
   // {
@@ -33,7 +33,7 @@ const links: Link[] = [
   // },
   {
     title: 'Blogs',
-    href: 'https://theoldfox.pythonanywhere.com/blog/',
+    href: 'https://site.the-fox.tech/blog/',
     thumbnail: '/assets/nav-link-previews/blog.png',
   },
   {

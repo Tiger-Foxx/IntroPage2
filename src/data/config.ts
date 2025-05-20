@@ -17,7 +17,7 @@ const config = {
   ],
   author: "The Fox", // Your Name
   email: "donfackarthur750@gmail.com", // Your Email
-  site: "https://theoldfox.pythonanywhere.com/", // Your Website URL
+  site: "https://site.the-fox.tech/", // Your Website URL
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png"; // Update path if needed
